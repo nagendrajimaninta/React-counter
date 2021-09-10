@@ -16,7 +16,12 @@ return(
 );
 }
 function App(){
-  return <Layout startFrom={1} />;
+  return (
+    <div>
+  <Layout startFrom={1} />
+  <Layout startFrom={1} />
+  </div>
+  );
 }
 
     
